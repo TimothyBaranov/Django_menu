@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <!-- Вставьте сюда ваши мета-теги, стили и скрипты -->
+</head>
+<body>
+    <!-- Вставьте сюда вашу навигационную панель или меню -->
+    {% load menu_tags %}
+    {% draw_menu 'main_menu' %}
+    <!-- Вставьте сюда содержимое страницы, которое будет изменяться в зависимости от конкретной страницы -->
+    {% block content %}{% endblock %}
+</body>
+</html>
