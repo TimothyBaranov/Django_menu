@@ -1,0 +1,19 @@
+{% extends 'admin/base.html' %}
+
+{% block content %}
+    {% block branding %}
+        <!-- Your branding content here, if needed -->
+    {% endblock %}
+    {% block nav-global %}
+        <!-- Your global navigation content here, if needed -->
+    {% endblock %}
+    {% block breadcrumbs %}
+        <!-- Your breadcrumbs content here, if needed -->
+    {% endblock %}
+    {% block messages %}
+        <!-- Your messages content here, if needed -->
+    {% endblock %}
+    {% block coltype %}colM{% endblock %}
+    {% block content_title %}{% if title %}{{ title }}{% endif %}{% endblock %}
+        <!-- Your main content here -->
+    {% endblock %}

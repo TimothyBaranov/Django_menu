@@ -11,3 +11,7 @@ def draw_menu(request, menu_name):
     }
 
     return render(request, 'menu.html', context)
+
+
+def home(request):
+    return render(request, 'home.html')
